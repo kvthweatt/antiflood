@@ -1,0 +1,21 @@
+name: AntiFlood
+version: 1.0.0
+main: dev.antiflood.AntiFloodPlugin
+api-version: 1.21
+authors: SlowMass aka Karac V. Thweatt
+description: Removes water/lava above a specified Y level across all loaded chunks.
+
+commands:
+  antiflood:
+    description: Remove flood blocks above a Y level
+    usage: /antiflood <y> [water|lava|both]
+    permission: antiflood.use
+  antifloodstop:
+    description: Stop an ongoing antiflood operation
+    usage: /antifloodstop
+    permission: antiflood.use
+
+permissions:
+  antiflood.use:
+    description: Allows use of antiflood commands
+    default: op
