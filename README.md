@@ -18,10 +18,10 @@ A Paper plugin for Minecraft servers that removes flood blocks (water/lava) abov
 
 **Examples:**
 
-/antiflood 100
-/antiflood 100 water
-/antiflood 100 lava
-/antifloodstop
+/antiflood 100  
+/antiflood 100 water  
+/antiflood 100 lava  
+/antifloodstop  
 
 
 ## Permissions
